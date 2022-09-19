@@ -1,0 +1,46 @@
+{
+    "pages": [
+      "pages/zzry/zzry",
+      "pages/jjsy/jjsy",
+      "pages/dybj/dybj",
+      "pages/dyxq/dyxq",
+      "pages/index/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Weixin",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+
+    "tabBar": {
+      "list": [
+        {
+        "pagePath": "pages/zzry/zzry",
+        "text": "正在热映",
+        "iconPath": "./pages/images/个人中心.png",
+        "selectedIconPath": "./pages/images/个人中心.png"
+      },
+      {
+        "pagePath": "pages/jjsy/jjsy",
+        "text": "即将上映",
+        "iconPath": "./pages/images/时间.png",
+        "selectedIconPath": "./pages/images/时间.png"
+      },
+      {
+        "pagePath": "pages/dybj/dybj",
+        "text": "电影编辑",
+        "iconPath": "./pages/images/标签.png",
+        "selectedIconPath": "./pages/images/标签.png"
+      },
+      {
+        "pagePath": "pages/dyxq/dyxq",
+        "text": "电影详情",
+        "iconPath": "./pages/images/资料.png",
+        "selectedIconPath": "./pages/images/资料.png"
+      }
+    ]
+    }
+}

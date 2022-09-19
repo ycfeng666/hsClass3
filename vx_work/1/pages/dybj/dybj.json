@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#999966",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "电影编辑",
+  "backgroundColor": "#ffffcc",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true
+}

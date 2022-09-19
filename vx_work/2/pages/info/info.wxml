@@ -1,0 +1,12 @@
+<!--pages/info/info.wxml-->
+<view wx:for="{{info}}" wx:key="item" class="info">
+  <view>我的名字是{{item.name}} \n</view>
+  <view>今年{{item.age}}岁 \n</view>
+  <view>爱好{{item.like}} \n</view>
+  <view>
+    本次成绩是
+    <text wx:if="{{item.score>=90}}">优秀</text>
+    <text wx:elif="{{item.score >= 60}}">及格</text>
+    <text wx:else>不及格</text>
+  </view>
+</view>

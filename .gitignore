@@ -1,0 +1,12 @@
+# 忽略后缀名
+*.png
+*.jpg
+
+# 忽略通配符目录
+
+
+# 忽略指定文件
+.eslintrc.js
+project.config.json
+project.private.config.json
+sitemap.json
