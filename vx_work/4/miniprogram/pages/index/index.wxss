@@ -1,0 +1,7 @@
+/**index.wxss**/
+view,button{
+  margin-top: 20px;
+}
+radio,checkbox{
+  margin-left: 5px;
+}

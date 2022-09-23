@@ -1,0 +1,25 @@
+<view class="box1">
+  <view class='left text-center'>
+    这是左边
+  </view>
+  <view class='right text-center'>
+    这是右边
+  </view>
+</view>
+<view class="box2">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="box3">
+  <view class="btn">
+    <button bindtap="tap" class="page-body-button" type="primary">点击移动小方块</button>
+  </view>
+  <movable-area>
+    <movable-view x="{{x}}" y="{{y}}" direction="all">只因</movable-view>
+  </movable-area>
+</view>
