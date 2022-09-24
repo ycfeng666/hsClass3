@@ -5,3 +5,6 @@ view,button{
 radio,checkbox{
   margin-left: 5px;
 }
+input{
+  border-bottom: 1px solid #000;
+}

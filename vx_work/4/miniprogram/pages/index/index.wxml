@@ -6,17 +6,17 @@
       <input value="{{formData.name}}" placeholder="请输入关系人姓名" />
     </view>
     <view >
-      <label>健康码状态</label>
+      <label>性别</label>
       <radio-group>
-        <label wx:for="{{healthCodeList}}" wx:key="item">
+        <label wx:for="{{sexList}}" wx:key="item">
           <radio value="{{item.name}}" checked="{{item.ch}}">{{item.name}}</radio>
         </label>
       </radio-group>
     </view>
     <view>
-      <label>来源地</label>
+      <label>喜好</label>
       <checkbox-group>
-        <label wx:for="{{placeList}}" wx:key="item">
+        <label wx:for="{{likeList}}" wx:key="item">
           <checkbox value="{{item.name}}" checked="{{item.ch}}">{{item.name}}</checkbox>
         </label>
       </checkbox-group>

@@ -16,9 +16,11 @@ Page({
   },
   checkNum() {
     let r = '';
-    if (this.data.num1 > this.data.num2) r = '数字1大于数字2';
-    else if (this.data.num1 === this.data.num2) r = '两数相等';
-    else r = '数字2大于数字1';
+    const num1 = this.data.num1,
+    num2 = this.data.num2;
+    if (num1 > num2) r = `${num1} > ${num2}`;
+    else if (num1 === num2) r = `${num1} = ${num2}`;
+    else r = `${num1} < ${num2}`;
     this.setData({
       res: r
     })

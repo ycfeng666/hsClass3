@@ -5,13 +5,10 @@ const app = getApp<IAppOption>()
 Page({
   data: {
     formData: {
-      cardId: '',
-      membersOf: '',
-      name: '',
-      phone: ''
+      name: '只因鲲',
     },
-    healthCodeList: [{ name: '绿码', ch: 'true' }, { name: '黄码' }, { name: '红码' }],
-    placeList: [{ name: '武汉', ch: 'true' }, { name: '北京' }, { name: '上海' }]
+    sexList: [{ name: '他',  }, { name: '她' }, { name: '它',ch: 'true' }],
+    likeList: [{ name: '唱', ch: 'true' }, { name: '跳',ch:'true' }, { name: 'rap' },{name:'篮球'}]
   },
   submitForm() {
     wx.showToast({
