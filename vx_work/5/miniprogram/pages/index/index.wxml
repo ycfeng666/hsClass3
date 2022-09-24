@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <label>数字1</label>
+    <input value="{{num1}}" type="number" bindinput="handInputChange" id="num1" />
+  </view>
+  <view>
+    <label>数字2</label>
+    <input value="{{num2}}" type="number" bindinput="handInputChange" id="num2" />
+  </view>
+  <button bindtap="checkNum" type="primary">比较</button>
+  <view wx:if="{{res}}">结果：{{res}}</view>
+</view>

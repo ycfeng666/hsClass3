@@ -136,7 +136,7 @@
 
 2022年9月23日
 
-> **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/vx_work/3/miniprogram)**
+> **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/vx_work/3/miniprogram/pages/index)**
 
 #### 实验目的
 
@@ -155,7 +155,7 @@
 
 2022年9月23日
 
-> **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/vx_work/4/miniprogram)**
+> **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/vx_work/4/miniprogram/pages/index)**
 
 #### 实验目的
 
@@ -172,7 +172,7 @@
 
 2022年9月23日
 
-> 待更新，敬请期待
+> **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/vx_work/5/miniprogram/pages/index)**
 
 #### 实验目的
 
@@ -192,7 +192,7 @@
 
 2022年9月23日
 
-> 待更新，敬请期待
+> **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/vx_work/6/miniprogram/pages/index)**
 
 #### 实验目的
 
@@ -239,7 +239,7 @@
 
 #### 实验内容
 
-1. 实现果茶店小程序首页中的左侧分类菜单及主体商品列表(不需要写wxss样式文件) 
+1. 实现果茶店小程序首页中的左侧分类菜单及主体商品列表(不需要写wxss样式文件)
 
 <br/>
 

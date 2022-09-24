@@ -24,17 +24,16 @@ Page({
     if (this.data.r0 === 0) {
       this.setData({
         x: 100,
-        y: 100
+        y: 100,
+        r0:1
       });
-      this.data.r0 = 1;
     }
     else {
       this.setData({
         x: 0,
-        y: 0
+        y: 0,
+        r0:0
       });
-      this.data.r0 = 0;
     }
-
   },
 })

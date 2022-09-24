@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <button type="primary" bindtap='browse'>从相册选择图片</button>
+    <view class="imgBox">
+      <image wx:if="{{aimgurl}}" src="{{aimgurl}}"></image>
+    </view>
+
+  </view>
+
+  <view class="httpbox">
+    <button type="warn" bindtap="getRequest">发起http请求</button>
+    <view class="hitokoto" wx:if="{{hitokoto.hitokoto}}">
+      {{hitokoto.hitokoto + '\t--'+hitokoto.from}}
+    </view>
+  </view>
+</view>

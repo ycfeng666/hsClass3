@@ -22,4 +22,6 @@ pom.xml
 tsconfig.json
 package.json
 
-# 忽略路径
+
+# 忽略通配符文件
+app.*

@@ -1,20 +1,20 @@
 <!--index.wxml-->
 <view class="container">
   <form id="addform" ref="addform" models="{{formData}}">
-    <view label="姓名" name="name">
-      <label for="name">姓名</label>
-      <input value="{{formData.name}}" bindinput="handInputChange" type="nickname" id="name" name="name" placeholder="请输入关系人姓名" />
+    <view>
+      <label>姓名</label>
+      <input value="{{formData.name}}" placeholder="请输入关系人姓名" />
     </view>
-    <view label="健康码状态" name="health">
-      <label for="health">健康码状态</label>
+    <view >
+      <label>健康码状态</label>
       <radio-group>
         <label wx:for="{{healthCodeList}}" wx:key="item">
           <radio value="{{item.name}}" checked="{{item.ch}}">{{item.name}}</radio>
         </label>
       </radio-group>
     </view>
-    <view label="来源地" name="place">
-      <label for="place">来源地</label>
+    <view>
+      <label>来源地</label>
       <checkbox-group>
         <label wx:for="{{placeList}}" wx:key="item">
           <checkbox value="{{item.name}}" checked="{{item.ch}}">{{item.name}}</checkbox>

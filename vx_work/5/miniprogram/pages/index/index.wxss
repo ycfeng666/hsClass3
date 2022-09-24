@@ -1,0 +1,7 @@
+/**index.wxss**/
+view,button{
+  margin-top: 20px;
+}
+input{
+  border-bottom: 1px solid #000;
+}

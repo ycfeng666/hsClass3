@@ -1,0 +1,8 @@
+/**index.wxss**/
+view:not(:first-child){
+  margin-top: 10px;
+}
+.hitokoto{
+  font-weight: bold;
+  padding: 20rpx;
+}
