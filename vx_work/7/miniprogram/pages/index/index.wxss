@@ -1,0 +1,4 @@
+/**index.wxss**/
+view:not(:first-child){
+  margin-top: 10px;
+}

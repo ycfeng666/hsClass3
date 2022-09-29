@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <view><button type="primary" bindtap="GoToMap1">地图1页面</button></view>
+  <view><button type="warn" bindtap="GoToMap2">地图2页面</button></view>
+</view>

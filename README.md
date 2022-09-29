@@ -170,7 +170,7 @@
 
 ### 第五次实验
 
-2022年9月23日
+2022年9月24日
 
 > **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/vx_work/5/miniprogram/pages/index)**
 
@@ -190,7 +190,7 @@
 
 ### 第六次实验
 
-2022年9月23日
+2022年9月24日
 
 > **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/vx_work/6/miniprogram/pages/index)**
 
@@ -209,9 +209,9 @@
 
 ### 第七次实验
 
-2022年9月23日
+2022年9月29日
 
-> 待更新，敬请期待
+> **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/vx_work/7/miniprogram/pages)**
 
 #### 实验目的
 
@@ -227,9 +227,9 @@
 
 ### 第八次实验
 
-2022年9月23日
+2022年9月29日
 
-> 待更新，敬请期待
+> **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/vx_work/8/pages/index)**
 
 #### 实验目的
 
