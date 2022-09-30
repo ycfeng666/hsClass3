@@ -3,6 +3,7 @@
 *.jpg
 *.iml
 *.xml
+*.lock
 
 # 忽略通配符目录
 *.idea*/
@@ -11,6 +12,7 @@
 *typings*/
 *utils*/
 *ssm*/
+*node_modules*/
 
 
 # 忽略指定文件
