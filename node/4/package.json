@@ -1,0 +1,8 @@
+{
+	"scripts": {
+		"start": "node main.js"
+	},
+	"dependencies": {
+		"ejs": "^3.1.8"
+	}
+}

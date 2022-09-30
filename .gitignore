@@ -4,26 +4,19 @@
 *.iml
 *.xml
 *.lock
+vx_work/**/*.json
 
 # 忽略通配符目录
 *.idea*/
 *.vscode*/
 *.vs*/
-*typings*/
-*utils*/
-*ssm*/
 *node_modules*/
-
+*ssm*/
+vx_work/**/typings
+vx_work/**/utils
 
 # 忽略指定文件
-.eslintrc.js
-project.config.json
-project.private.config.json
-sitemap.json
-pom.xml
-tsconfig.json
-package.json
-
+vx_work/**/.eslintrc.js
 
 # 忽略通配符文件
 app.*
