@@ -20,3 +20,4 @@ vx_work/**/.eslintrc.js
 
 # 忽略通配符文件
 app.*
+package-lock.*

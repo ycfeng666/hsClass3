@@ -1,0 +1,29 @@
+<body>
+    <h3>
+      <%=title %>
+    </h3>
+    <table>
+      <tr>
+        <th>学号</th>
+        <th>姓名</th>
+        <th>语文</th>
+        <th>数学</th>
+      </tr>
+      <% data.forEach((item)=>{ %>
+        <tr>
+          <td>
+            <%=item.userid %>
+          </td>
+          <td>
+            <%=item.name %>
+          </td>
+          <td>
+            <%=item.chinese %>
+          </td>
+          <td>
+            <%=item.math %>
+          </td>
+        </tr>
+        <% }) %>
+    </table>
+  </body>

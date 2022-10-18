@@ -1,0 +1,35 @@
+<style>
+  .center {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .line {
+    margin-top: 10px;
+  }
+</style>
+
+<body>
+  <div class="center">
+    <form method="POST">
+      <div class="line">
+        <label>书名:</label>
+        <input type="text" name="b_name" id="b_name" value="<%=data.b_name %>" />
+      </div>
+
+      <div class="line">
+        <label>作者:</label>
+        <input type="text" name="b_author" id="b_author" value="<%=data.b_author %>" />
+      </div>
+
+      <div class="line">
+        <label>总数量:</label>
+        <input type="number" name="b_allnum" id="b_allnum" value="<%=data.b_allnum %>" />
+      </div>
+
+      <div class="line">
+        <input type="submit" value="提交" id="login" />
+      </div>
+    </form>
+  </div>
+</body>

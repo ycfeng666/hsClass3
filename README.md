@@ -133,6 +133,39 @@
 
 <br/>
 
+### 第六次实验
+
+> **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/node/6)**
+
+#### 实验目的
+
+1. 掌握express中间件的使用
+2. 掌握restful web服务的创建
+
+#### 实验内容
+
+1. 请使用express框架开发一个web应用程序，当用户登录后查看该用户的个人信息，用户信息如下表所示。在程序中用户的图像使用static中间件进行静态文件托管，放置在public目录下，每个用户的图像使用学号命名
+   1. 当使用get方式访问’/’，向客户端返回登录页面，允许用户输入学号（stuNum）和姓名(stuName)
+   2. 当提交表单使用post方式访问’/’，查询表格中对应学号的学生信息并使用模版文件将数据动态返回给客户端（学生信息可以使用数组保存，解析post请求参数可以使用body-parse中间件）
+   3. 当使用get方式访问’/userImage/:stuNum’，向客户端返回对应学号的学生的图像
+
+<br/>
+
+### 第七次实验
+
+> **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/node/7)**
+
+#### 实验目的
+
+1. 掌握MYSQL数据库的基本命令
+2. 掌握node.js的mysql模块的使用
+
+#### 实验内容
+
+1. 参考书本第155-160页的代码，完成对图书信息的增删改查功能。要求数据保存在数据库中的books表中
+
+<br/>
+
 ## 微信小程序
 
 > 仓库内忽略了部分文件，只演示核心代码，直接clone本目录无法运行，如需完整已源码发布至[![Release](https://img.shields.io/github/v/release/ycfeng666/hsClass3)](https://github.com/ycfeng666/hsClass3/releases)
