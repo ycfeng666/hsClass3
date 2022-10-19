@@ -91,7 +91,7 @@ app
 	});
 
 function log(msg, type = 'info') {
-	const m = `${day().format('YYYY-MM-DD HH:mm:ss ')} [${type}]:${msg}`;
+	const m = `${day().format('YYYY-MM-DD HH:mm:ss')} [${type}]:${msg}`;
 	switch (type) {
 		case 'info':
 			console.log(m.gray);

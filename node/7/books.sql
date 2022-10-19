@@ -26,14 +26,13 @@ CREATE TABLE `book`  (
   `b_name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `b_author` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `b_allnum` int(11) NULL DEFAULT NULL,
-  `b_freenum` int(11) NULL DEFAULT NULL,
   PRIMARY KEY (`b_id`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 3 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of book
 -- ----------------------------
-INSERT INTO `book` VALUES (1, '资本论', '马克思', 100, 0);
-INSERT INTO `book` VALUES (2, '习近平谈治国理政', '习近平', 20, 20);
+INSERT INTO `book` VALUES (1, '资本论', '马克思', 100);
+INSERT INTO `book` VALUES (2, '习近平谈治国理政', '习近平', 20);
 
 SET FOREIGN_KEY_CHECKS = 1;
