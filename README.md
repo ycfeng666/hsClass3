@@ -166,6 +166,24 @@
 
 <br/>
 
+### 第八次实验
+
+> **[参考代码](https://github.com/ycfeng666/hsClass3/tree/main/node/8)**
+
+#### 实验目的
+
+1. 掌握socket.io模块的通信机制
+2. 掌握socket.io模块的使用方法。
+3. 掌握socket.io模块的三种通信类型。
+
+#### 实验内容
+
+1. 使用http+socket.io完成一个简单的聊天室，要求聊天室具有如下功能：
+   1. 输入用户昵称和房间号可以进入到一个房间聊天室开始聊天
+   2. 聊天窗口实时展示消息列表
+
+<br/>
+
 ## 微信小程序
 
 > 仓库内忽略了部分文件，只演示核心代码，直接clone本目录无法运行，如需完整已源码发布至[![Release](https://img.shields.io/github/v/release/ycfeng666/hsClass3)](https://github.com/ycfeng666/hsClass3/releases)

@@ -1,0 +1,116 @@
+<html lang="zh-cn">
+
+<head>
+  <title>在线聊天室</title>
+  <style>
+    .card {
+      width: 50%;
+      margin: 0 auto;
+      position: relative;
+      border: 1px solid gray;
+    }
+
+    #roomName {
+      height: 5%;
+      text-align: center;
+    }
+
+    #form {
+      background: rgba(0, 0, 0, 0.15);
+      padding: 0.25rem;
+      display: flex;
+      height: 5%;
+      box-sizing: border-box;
+      backdrop-filter: blur(10px);
+    }
+
+    #input {
+      border: none;
+      padding: 0 1rem;
+      flex-grow: 1;
+      border-radius: 2rem;
+      margin: 0.25rem;
+    }
+
+    #input:focus {
+      outline: none;
+    }
+
+    #messages {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow-y: scroll;
+      height: 80%;
+    }
+
+    #messages>li {
+      padding: 0.5rem 1rem;
+    }
+
+    #messages>li:nth-child(odd) {
+      background: #efefef;
+    }
+
+    #messages>li:nth-child(even) {
+      text-align: right;
+    }
+
+    #messages>li>.time {
+      color: #A8ABB2;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h3 id="roomName"></h3>
+    <ul id="messages"></ul>
+    <div id="form" action="">
+      <input id="input" autocomplete="off" />
+    </div>
+  </div>
+</body>
+<script src="jquery.min.js"></script>
+<script src="socket.io.min.js"></script>
+<script>
+  // url参数：name,默认:随机匿名用户
+  // url参数：room,默认:1
+  const socket = io(),
+    messages = $('#messages'),
+    form = $('#form'),
+    input = $('#input'),
+    room = getUrlParam('room'),
+    name = getUrlParam('name');
+
+  $('#roomName').text('房间' + room);
+  input.keypress((even) => {
+    if (even.which == 13) {
+      socket.emit('join', room);
+      if (input.val()) {
+        socket.emit('message', {
+          name: name,
+          msg: input.val()
+        });
+        input.val('');
+      }
+    }
+  })
+
+  socket.on('message', (msg) => {
+    let output = '<li>' + '<h3>' + msg.name + '</h3>' + '<p>' + msg.msg + '</p>' + '<p class="time">' + msg.time + '</p>' + '</li>'
+    messages.append(output);
+  });
+
+  function getUrlParam (variable) {
+    let query = window.location.search.substring(1);
+    let vars = query.split("&");
+    for (let i = 0; i < vars.length; i++) {
+      let pair = vars[i].split("=");
+      if (pair[0] == variable) return pair[1];
+    }
+    return '';
+  }
+</script>
+
+</html>
